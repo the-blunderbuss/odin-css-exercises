@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+.class {
+    background-color: hsl(0 61.9% 71.2%);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+.cooler {
+    font-size: 24px;
+}
+#first-unique {
+    color: hsl(238 73.3% 58.8%);
+    font-size: 36px;
+}
+#second-unique {
+    background-color: hsl(131 65.5% 78.4%);
+    font-weight: bold;
+}
