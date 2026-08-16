@@ -1,20 +1,31 @@
 body {
   background: gray;
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 .card {
   width: 400px;
   background: white;
-  margin: 16px auto;
+  margin: 1rem auto;
+  padding: 1rem;
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  font-size: 16px;
+  margin: round(to-zero, 0.8rem, 1px) 0;
+  padding: 1em;
 }
-
+.button-container {
+  text-align: center;
+}
 button {
   background: white;
+  display: block;
+  font-size: round(to-zero, 1.3rem, 1px);
+  margin: round(to-zero, 0.25rem, 1px) auto;
+  padding: round(to-zero, 0.5rem, 1px) 1rem;
 }
