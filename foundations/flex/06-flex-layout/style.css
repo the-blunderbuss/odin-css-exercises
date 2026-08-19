@@ -24,3 +24,45 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* -- Solution -- */
+
+html {
+  color: rgb(60, 50, 35);
+}
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.left-links,
+.right-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+:is(.left-links, .right-links) a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer {
+  background-color: #eee;
+  color: rgb(90, 80, 65);
+}
+.content {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+  align-items: center;
+}
+button {
+  padding: 0.5rem 1rem;
+}
